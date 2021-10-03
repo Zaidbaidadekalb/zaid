@@ -1,4 +1,5 @@
--- R6 
+-- R6 Hub
+-- Made By ZaidBaida#2129
 
 local ZaidR = Instance.new("ScreenGui")
 local KeyFrame = Instance.new("Frame")
@@ -12,8 +13,9 @@ local Galefighter = Instance.new("TextButton")
 local FeSpider = Instance.new("TextButton")
 local Sonic = Instance.new("TextButton")
 local ZAIDR6666_2 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
 
-
+--Properties
 
 ZaidR.Name = "Zaid R^"
 ZaidR.Parent = game.CoreGui
@@ -22,8 +24,10 @@ ZaidR.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 KeyFrame.Name = " Key Frame"
 KeyFrame.Parent = ZaidR
 KeyFrame.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-KeyFrame.Position = UDim2.new(0.0400925279, 0, 0.63190186, 0)
+KeyFrame.Position = UDim2.new(0.139552787, 0, 0.354601264, 0)
 KeyFrame.Size = UDim2.new(0, 411, 0, 233)
+KeyFrame.Active = true
+KeyFrame.Draggable = true 
 
 KeySystem.Name = "Key System"
 KeySystem.Parent = KeyFrame
@@ -60,9 +64,11 @@ key.TextSize = 14.000
 
 Frame.Parent = ZaidR
 Frame.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-Frame.Position = UDim2.new(0.301464915, 0, 0.159509167, 0)
+Frame.Position = UDim2.new(0.481110275, 0, 0.374233067, 0)
 Frame.Size = UDim2.new(0, 560, 0, 318)
 Frame.Visible = false
+Frame.Active = true
+Frame.Draggable = true 
 
 FakeVr.Name = "Fake Vr"
 FakeVr.Parent = Frame
@@ -77,6 +83,7 @@ FakeVr.TextSize = 39.000
 FakeVr.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zaidbaidadekalb/zaid/main/vr.lua", true))()
 end)
+
 
 ZAIDR6666.Name = "ZAID R6666"
 ZAIDR6666.Parent = Frame
@@ -116,6 +123,7 @@ FeSpider.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zaidbaidadekalb/zaid/main/spider.lua", true))()
 end)
 
+
 Sonic.Name = "Sonic "
 Sonic.Parent = Frame
 Sonic.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
@@ -130,6 +138,7 @@ Sonic.MouseButton1Down:connect(function()
 	loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
 end)
 
+
 ZAIDR6666_2.Name = "ZAID R6666"
 ZAIDR6666_2.Parent = Frame
 ZAIDR6666_2.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
@@ -142,9 +151,22 @@ ZAIDR6666_2.Text = "M to open and close gui"
 ZAIDR6666_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 ZAIDR6666_2.TextSize = 59.000
 
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0, 244, 0, 55)
+TextButton.Size = UDim2.new(0, 57, 0, 40)
+TextButton.Text = "Reset"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/pY3BNggM", true))()
+end)
+
+
 -- Scripts:
 
-local function UMZRXQ_fake_script() -- Check.LocalScript 
+local function ZNAY_fake_script() -- Check.LocalScript 
 	local script = Instance.new('LocalScript', Check)
 
 	local key = script.Parent.Parent.key
@@ -167,8 +189,8 @@ local function UMZRXQ_fake_script() -- Check.LocalScript
 	
 	-- Video: https://youtu.be/hy1Tcwr3PRY
 end
-coroutine.wrap(UMZRXQ_fake_script)()
-local function FBFSKK_fake_script() -- Frame.LocalScript 
+coroutine.wrap(ZNAY_fake_script)()
+local function DPKYTOC_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	function PopupGui()
@@ -185,4 +207,15 @@ local function FBFSKK_fake_script() -- Frame.LocalScript
 	end)
 	
 end
-coroutine.wrap(FBFSKK_fake_script)()
+coroutine.wrap(DPKYTOC_fake_script)()
+local function OKHGKC_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	function onButtonClicked()
+	script.Parent.Parent.Parent.Parent.Character.Humanoid.Health = 0
+	end
+	
+	script.Parent.MouseButton1Click:connect(onButtonClicked)
+	
+end
+coroutine.wrap(OKHGKC_fake_script)()
