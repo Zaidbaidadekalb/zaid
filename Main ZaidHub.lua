@@ -1,4 +1,7 @@
--- This is the main hub 
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
 
 local Zaid = Instance.new("ScreenGui")
 local KeyFrame = Instance.new("Frame")
@@ -11,7 +14,7 @@ local ZaidBaida2129 = Instance.new("TextLabel")
 local ZaidHub = Instance.new("TextButton")
 local ZaidHubR6 = Instance.new("TextButton")
 
-
+--Properties:
 
 Zaid.Name = "Zaid"
 Zaid.Parent = game.CoreGui
@@ -96,7 +99,7 @@ ZaidHub.Text = "Zaid Hub (Main)"
 ZaidHub.TextColor3 = Color3.fromRGB(0, 0, 0)
 ZaidHub.TextSize = 19.000
 ZaidHub.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zaidbaidadekalb/zaid/main/Main%20ZaidHub.lua", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zaidbaidadekalb/zaid/main/ZaidHub.lua", true))()
 end)
 
 ZaidHubR6.Name = "ZaidHub(R6)"
