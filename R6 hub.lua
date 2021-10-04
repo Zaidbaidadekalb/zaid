@@ -1,30 +1,26 @@
--- R6 Hub
--- Made By ZaidBaida#2129
+-- of this was made by me 
 
-local ZaidR = Instance.new("ScreenGui")
+local Zaid = Instance.new("ScreenGui")
 local KeyFrame = Instance.new("Frame")
 local KeySystem = Instance.new("TextLabel")
 local Check = Instance.new("TextButton")
 local key = Instance.new("TextBox")
 local Frame = Instance.new("Frame")
-local FakeVr = Instance.new("TextButton")
-local ZAIDR6666 = Instance.new("TextLabel")
-local Galefighter = Instance.new("TextButton")
-local FeSpider = Instance.new("TextButton")
-local Sonic = Instance.new("TextButton")
-local ZAIDR6666_2 = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
+local ZaidHubLogo = Instance.new("ImageLabel")
+local ZaidBaida2129 = Instance.new("TextLabel")
+local ZaidHub = Instance.new("TextButton")
+local ZaidHubR6 = Instance.new("TextButton")
 
---Properties
 
-ZaidR.Name = "Zaid R^"
-ZaidR.Parent = game.CoreGui
-ZaidR.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Zaid.Name = "Zaid"
+Zaid.Parent = game.CoreGui
+Zaid.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 KeyFrame.Name = " Key Frame"
-KeyFrame.Parent = ZaidR
+KeyFrame.Parent = Zaid
 KeyFrame.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-KeyFrame.Position = UDim2.new(0.139552787, 0, 0.354601264, 0)
+KeyFrame.Position = UDim2.new(0.0354664326, 0, 0.602454007, 0)
 KeyFrame.Size = UDim2.new(0, 411, 0, 233)
 KeyFrame.Active = true
 KeyFrame.Draggable = true 
@@ -33,6 +29,7 @@ KeySystem.Name = "Key System"
 KeySystem.Parent = KeyFrame
 KeySystem.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 KeySystem.BackgroundTransparency = 1.000
+KeySystem.Position = UDim2.new(0.00973236002, 0, 0, 0)
 KeySystem.Size = UDim2.new(0, 411, 0, 61)
 KeySystem.Font = Enum.Font.SourceSans
 KeySystem.Text = "Key System"
@@ -62,117 +59,63 @@ key.Text = ""
 key.TextColor3 = Color3.fromRGB(0, 0, 0)
 key.TextSize = 14.000
 
-Frame.Parent = ZaidR
+Frame.Parent = Zaid
 Frame.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-Frame.Position = UDim2.new(0.481110275, 0, 0.374233067, 0)
-Frame.Size = UDim2.new(0, 560, 0, 318)
+Frame.Position = UDim2.new(0.480339229, 0, 0.303067505, 0)
+Frame.Size = UDim2.new(0, 389, 0, 356)
 Frame.Visible = false
 Frame.Active = true
 Frame.Draggable = true 
 
-FakeVr.Name = "Fake Vr"
-FakeVr.Parent = Frame
-FakeVr.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-FakeVr.BackgroundTransparency = 0.500
-FakeVr.Position = UDim2.new(0.0553571321, 0, 0.295597464, 0)
-FakeVr.Size = UDim2.new(0, 200, 0, 50)
-FakeVr.Font = Enum.Font.SourceSans
-FakeVr.Text = "Fake Vr "
-FakeVr.TextColor3 = Color3.fromRGB(0, 0, 0)
-FakeVr.TextSize = 39.000
-FakeVr.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zaidbaidadekalb/zaid/main/vr.lua", true))()
-end)
+ZaidHubLogo.Name = "ZaidHub Logo"
+ZaidHubLogo.Parent = Frame
+ZaidHubLogo.BackgroundColor3 = Color3.fromRGB(163, 138, 38)
+ZaidHubLogo.BackgroundTransparency = 1.000
+ZaidHubLogo.Size = UDim2.new(0, 388, 0, 193)
+ZaidHubLogo.Image = "http://www.roblox.com/asset/?id=7643729147"
 
+ZaidBaida2129.Name = "ZaidBaida#2129"
+ZaidBaida2129.Parent = Frame
+ZaidBaida2129.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ZaidBaida2129.BackgroundTransparency = 1.000
+ZaidBaida2129.Position = UDim2.new(0, 0, 0.924157321, 0)
+ZaidBaida2129.Size = UDim2.new(0, 389, 0, 27)
+ZaidBaida2129.Font = Enum.Font.RobotoMono
+ZaidBaida2129.Text = "Mady By ZaidBaida#2129"
+ZaidBaida2129.TextColor3 = Color3.fromRGB(0, 0, 0)
+ZaidBaida2129.TextSize = 32.000
 
-ZAIDR6666.Name = "ZAID R6666"
-ZAIDR6666.Parent = Frame
-ZAIDR6666.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-ZAIDR6666.BackgroundTransparency = 0.500
-ZAIDR6666.Size = UDim2.new(0, 560, 0, 50)
-ZAIDR6666.Font = Enum.Font.SourceSans
-ZAIDR6666.Text = "Zaid's R6 GUI"
-ZAIDR6666.TextColor3 = Color3.fromRGB(0, 0, 0)
-ZAIDR6666.TextSize = 70.000
+ZaidHub.Name = "ZaidHub"
+ZaidHub.Parent = Frame
+ZaidHub.BackgroundColor3 = Color3.fromRGB(199, 168, 43)
+ZaidHub.BorderSizePixel = 4
+ZaidHub.Position = UDim2.new(0.0642673522, 0, 0.719101131, 0)
+ZaidHub.Size = UDim2.new(0, 137, 0, 50)
+ZaidHub.Font = Enum.Font.SciFi
+ZaidHub.Text = "Zaid Hub (Main)"
+ZaidHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+ZaidHub.TextSize = 19.000
 
-Galefighter.Name = "Gale fighter"
-Galefighter.Parent = Frame
-Galefighter.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-Galefighter.BackgroundTransparency = 0.500
-Galefighter.Position = UDim2.new(0.555357099, 0, 0.295597464, 0)
-Galefighter.Size = UDim2.new(0, 200, 0, 50)
-Galefighter.Font = Enum.Font.SourceSans
-Galefighter.Text = "Gale fighter"
-Galefighter.TextColor3 = Color3.fromRGB(0, 0, 0)
-Galefighter.TextSize = 39.000
-Galefighter.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zaidbaidadekalb/zaid/main/geal.lua", true))()
-end)
-
-FeSpider.Name = "Fe Spider "
-FeSpider.Parent = Frame
-FeSpider.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-FeSpider.BackgroundTransparency = 0.500
-FeSpider.Position = UDim2.new(0.053571403, 0, 0.550314426, 0)
-FeSpider.Size = UDim2.new(0, 200, 0, 50)
-FeSpider.Font = Enum.Font.SourceSans
-FeSpider.Text = "Fe Spider "
-FeSpider.TextColor3 = Color3.fromRGB(0, 0, 0)
-FeSpider.TextSize = 39.000
-FeSpider.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zaidbaidadekalb/zaid/main/spider.lua", true))()
-end)
-
-
-Sonic.Name = "Sonic "
-Sonic.Parent = Frame
-Sonic.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
-Sonic.BackgroundTransparency = 0.500
-Sonic.Position = UDim2.new(0.555357099, 0, 0.550314426, 0)
-Sonic.Size = UDim2.new(0, 200, 0, 50)
-Sonic.Font = Enum.Font.SourceSans
-Sonic.Text = "Sonic "
-Sonic.TextColor3 = Color3.fromRGB(0, 0, 0)
-Sonic.TextSize = 39.000
-Sonic.MouseButton1Down:connect(function()
-	loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
-end)
-
-
-ZAIDR6666_2.Name = "ZAID R6666"
-ZAIDR6666_2.Parent = Frame
-ZAIDR6666_2.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-ZAIDR6666_2.BackgroundTransparency = 0.500
-ZAIDR6666_2.BorderSizePixel = 0
-ZAIDR6666_2.Position = UDim2.new(0, 0, 0.817610085, 0)
-ZAIDR6666_2.Size = UDim2.new(0, 560, 0, 50)
-ZAIDR6666_2.Font = Enum.Font.SourceSans
-ZAIDR6666_2.Text = "M to open and close gui"
-ZAIDR6666_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-ZAIDR6666_2.TextSize = 59.000
-
-TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0, 244, 0, 55)
-TextButton.Size = UDim2.new(0, 57, 0, 40)
-TextButton.Text = "Reset"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/pY3BNggM", true))()
-end)
-
+ZaidHubR6.Name = "ZaidHub(R6)"
+ZaidHubR6.Parent = Frame
+ZaidHubR6.BackgroundColor3 = Color3.fromRGB(199, 168, 43)
+ZaidHubR6.BorderSizePixel = 4
+ZaidHubR6.Position = UDim2.new(0.578406155, 0, 0.719101131, 0)
+ZaidHubR6.Size = UDim2.new(0, 137, 0, 50)
+ZaidHubR6.Font = Enum.Font.SciFi
+ZaidHubR6.Text = "Zaid R6 "
+ZaidHubR6.TextColor3 = Color3.fromRGB(0, 0, 0)
+ZaidHubR6.TextSize = 19.000
 
 -- Scripts:
 
-local function ZNAY_fake_script() -- Check.LocalScript 
+local function HQXA_fake_script() -- Check.LocalScript 
 	local script = Instance.new('LocalScript', Check)
 
 	local key = script.Parent.Parent.key
 	
 	script.Parent.MouseButton1Click:Connect(function()
-		if key.Text == "ZaidHubR6" then -- Make the "Key" whatever you wish.
+		if key.Text == "Zaid.Hub" then -- Make the "Key" whatever you wish.
 			script.Parent.Parent:TweenPosition(UDim2.new(0.383,0,-0.9,0), "Out", "Quad", 1, true)
 			script.Parent.Parent.Parent.Frame.Visible = true
 			wait(5)
@@ -189,33 +132,4 @@ local function ZNAY_fake_script() -- Check.LocalScript
 	
 	-- Video: https://youtu.be/hy1Tcwr3PRY
 end
-coroutine.wrap(ZNAY_fake_script)()
-local function DPKYTOC_fake_script() -- Frame.LocalScript 
-	local script = Instance.new('LocalScript', Frame)
-
-	function PopupGui()
-		if script.Parent.Visible==true then script.Parent.Visible=false
-		else script.Parent.Visible=true
-		end
-	end
-	
-	
-	game:GetService("UserInputService").InputBegan:Connect(function(key)
-		if key.KeyCode==Enum.KeyCode.M then
-			PopupGui()
-		end
-	end)
-	
-end
-coroutine.wrap(DPKYTOC_fake_script)()
-local function OKHGKC_fake_script() -- TextButton.Script 
-	local script = Instance.new('Script', TextButton)
-
-	function onButtonClicked()
-	script.Parent.Parent.Parent.Parent.Character.Humanoid.Health = 0
-	end
-	
-	script.Parent.MouseButton1Click:connect(onButtonClicked)
-	
-end
-coroutine.wrap(OKHGKC_fake_script)()
+coroutine.wrap(HQXA_fake_script)()
