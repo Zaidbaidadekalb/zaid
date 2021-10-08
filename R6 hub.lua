@@ -1,72 +1,33 @@
--- R6 Hub
--- Made By ZaidBaida#2129
+-- Made By zaidBaida
 
 local ZaidR = Instance.new("ScreenGui")
-local KeyFrame = Instance.new("Frame")
-local KeySystem = Instance.new("TextLabel")
-local Check = Instance.new("TextButton")
-local key = Instance.new("TextBox")
 local Frame = Instance.new("Frame")
 local FakeVr = Instance.new("TextButton")
+local Click = Instance.new("ImageLabel")
+local Follow = Instance.new("ImageLabel")
 local ZAIDR6666 = Instance.new("TextLabel")
 local Galefighter = Instance.new("TextButton")
+local Click_2 = Instance.new("ImageLabel")
+local Follow_2 = Instance.new("ImageLabel")
 local FeSpider = Instance.new("TextButton")
+local Click_3 = Instance.new("ImageLabel")
+local Follow_3 = Instance.new("ImageLabel")
 local Sonic = Instance.new("TextButton")
+local Click_4 = Instance.new("ImageLabel")
+local Follow_4 = Instance.new("ImageLabel")
 local ZAIDR6666_2 = Instance.new("TextLabel")
-local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UIGradient = Instance.new("UIGradient")
 
---Properties
 
 ZaidR.Name = "Zaid R^"
 ZaidR.Parent = game.CoreGui
 ZaidR.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-KeyFrame.Name = " Key Frame"
-KeyFrame.Parent = ZaidR
-KeyFrame.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-KeyFrame.Position = UDim2.new(0.139552787, 0, 0.354601264, 0)
-KeyFrame.Size = UDim2.new(0, 411, 0, 233)
-KeyFrame.Active = true
-KeyFrame.Draggable = true 
-
-KeySystem.Name = "Key System"
-KeySystem.Parent = KeyFrame
-KeySystem.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-KeySystem.BackgroundTransparency = 1.000
-KeySystem.Size = UDim2.new(0, 411, 0, 61)
-KeySystem.Font = Enum.Font.SourceSans
-KeySystem.Text = "Key System"
-KeySystem.TextColor3 = Color3.fromRGB(0, 0, 0)
-KeySystem.TextSize = 58.000
-KeySystem.TextWrapped = true
-
-Check.Name = "Check"
-Check.Parent = KeyFrame
-Check.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-Check.Position = UDim2.new(0.153284669, 0, 0.626609445, 0)
-Check.Size = UDim2.new(0, 295, 0, 59)
-Check.Font = Enum.Font.SourceSans
-Check.Text = "Check"
-Check.TextColor3 = Color3.fromRGB(255, 255, 255)
-Check.TextSize = 41.000
-Check.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-key.Name = "key"
-key.Parent = KeyFrame
-key.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-key.Position = UDim2.new(0.0754257888, 0, 0.429184556, 0)
-key.Size = UDim2.new(0, 358, 0, 32)
-key.Font = Enum.Font.SourceSans
-key.PlaceholderText = "Type Your key here"
-key.Text = ""
-key.TextColor3 = Color3.fromRGB(0, 0, 0)
-key.TextSize = 14.000
-
 Frame.Parent = ZaidR
 Frame.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-Frame.Position = UDim2.new(0.481110275, 0, 0.374233067, 0)
+Frame.Position = UDim2.new(0.215111807, 0, 0.206757322, 0)
 Frame.Size = UDim2.new(0, 560, 0, 318)
-Frame.Visible = false
 Frame.Active = true
 Frame.Draggable = true 
 
@@ -85,10 +46,27 @@ FakeVr.MouseButton1Down:connect(function()
 end)
 
 
+Click.Name = "Click"
+Click.Parent = FakeVr
+Click.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
+Click.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Click.BackgroundTransparency = 1.000
+Click.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Click.Image = "rbxassetid://967145807"
+
+Follow.Name = "Follow"
+Follow.Parent = FakeVr
+Follow.AnchorPoint = Vector2.new(0.699999988, 0.699999988)
+Follow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Follow.BackgroundTransparency = 1.000
+Follow.Position = UDim2.new(0, 329, 0, 83)
+Follow.Size = UDim2.new(0.300000012, 0, 0.300000012, 0)
+Follow.SizeConstraint = Enum.SizeConstraint.RelativeXX
+
 ZAIDR6666.Name = "ZAID R6666"
 ZAIDR6666.Parent = Frame
 ZAIDR6666.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-ZAIDR6666.BackgroundTransparency = 0.500
+ZAIDR6666.BackgroundTransparency = 1.000
 ZAIDR6666.Size = UDim2.new(0, 560, 0, 50)
 ZAIDR6666.Font = Enum.Font.SourceSans
 ZAIDR6666.Text = "Zaid's R6 GUI"
@@ -109,6 +87,23 @@ Galefighter.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zaidbaidadekalb/zaid/main/geal.lua", true))()
 end)
 
+Click_2.Name = "Click"
+Click_2.Parent = Galefighter
+Click_2.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
+Click_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Click_2.BackgroundTransparency = 1.000
+Click_2.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Click_2.Image = "rbxassetid://967145807"
+
+Follow_2.Name = "Follow"
+Follow_2.Parent = Galefighter
+Follow_2.AnchorPoint = Vector2.new(0.699999988, 0.699999988)
+Follow_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Follow_2.BackgroundTransparency = 1.000
+Follow_2.Position = UDim2.new(0, 329, 0, 83)
+Follow_2.Size = UDim2.new(0.300000012, 0, 0.300000012, 0)
+Follow_2.SizeConstraint = Enum.SizeConstraint.RelativeXX
+
 FeSpider.Name = "Fe Spider "
 FeSpider.Parent = Frame
 FeSpider.BackgroundColor3 = Color3.fromRGB(102, 102, 102)
@@ -123,6 +118,22 @@ FeSpider.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Zaidbaidadekalb/zaid/main/spider.lua", true))()
 end)
 
+Click_3.Name = "Click"
+Click_3.Parent = FeSpider
+Click_3.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
+Click_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Click_3.BackgroundTransparency = 1.000
+Click_3.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Click_3.Image = "rbxassetid://967145807"
+
+Follow_3.Name = "Follow"
+Follow_3.Parent = FeSpider
+Follow_3.AnchorPoint = Vector2.new(0.699999988, 0.699999988)
+Follow_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Follow_3.BackgroundTransparency = 1.000
+Follow_3.Position = UDim2.new(0, 329, 0, 83)
+Follow_3.Size = UDim2.new(0.300000012, 0, 0.300000012, 0)
+Follow_3.SizeConstraint = Enum.SizeConstraint.RelativeXX
 
 Sonic.Name = "Sonic "
 Sonic.Parent = Frame
@@ -138,6 +149,22 @@ Sonic.MouseButton1Down:connect(function()
 	loadstring(game:HttpGetAsync("https://pastebin.com/raw/SyF5t70A"))()
 end)
 
+Click_4.Name = "Click"
+Click_4.Parent = Sonic
+Click_4.AnchorPoint = Vector2.new(0.600000024, 0.600000024)
+Click_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Click_4.BackgroundTransparency = 1.000
+Click_4.SizeConstraint = Enum.SizeConstraint.RelativeXX
+Click_4.Image = "rbxassetid://967145807"
+
+Follow_4.Name = "Follow"
+Follow_4.Parent = Sonic
+Follow_4.AnchorPoint = Vector2.new(0.699999988, 0.699999988)
+Follow_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Follow_4.BackgroundTransparency = 1.000
+Follow_4.Position = UDim2.new(0, 329, 0, 83)
+Follow_4.Size = UDim2.new(0.300000012, 0, 0.300000012, 0)
+Follow_4.SizeConstraint = Enum.SizeConstraint.RelativeXX
 
 ZAIDR6666_2.Name = "ZAID R6666"
 ZAIDR6666_2.Parent = Frame
@@ -151,46 +178,15 @@ ZAIDR6666_2.Text = "M to open and close gui"
 ZAIDR6666_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 ZAIDR6666_2.TextSize = 59.000
 
-TextButton.Parent = Frame
-TextButton.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
-TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.BorderSizePixel = 0
-TextButton.Position = UDim2.new(0, 244, 0, 55)
-TextButton.Size = UDim2.new(0, 57, 0, 40)
-TextButton.Text = "Reset"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextButton.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/tsgWre91", true))()
-end)
+UICorner.CornerRadius = UDim.new(0, 25)
+UICorner.Parent = Frame
 
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(253, 215, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(125, 125, 126))}
+UIGradient.Parent = Frame
 
 -- Scripts:
 
-local function ZNAY_fake_script() -- Check.LocalScript 
-	local script = Instance.new('LocalScript', Check)
-
-	local key = script.Parent.Parent.key
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		if key.Text == "ZaidHubR6" then -- Make the "Key" whatever you wish.
-			script.Parent.Parent:TweenPosition(UDim2.new(0.383,0,-0.9,0), "Out", "Quad", 1, true)
-			script.Parent.Parent.Parent.Frame.Visible = true
-			wait(5)
-			script.Parent.Parent:Destroy() -- Destroys the GUI after a set time
-			print("Destroyed!")
-		elseif -- Tweening | If you want it to do a different tween just change the "Quad" to another tween animation
-			key.Text == "" then
-			key.Text = "" else
-			key.Text = "Incorrect, try again."
-			wait(1)
-			key.Text = ""
-		end
-	end)
-	
-	-- Video: https://youtu.be/hy1Tcwr3PRY
-end
-coroutine.wrap(ZNAY_fake_script)()
-local function DPKYTOC_fake_script() -- Frame.LocalScript 
+local function XALJ_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	function PopupGui()
@@ -207,15 +203,156 @@ local function DPKYTOC_fake_script() -- Frame.LocalScript
 	end)
 	
 end
-coroutine.wrap(DPKYTOC_fake_script)()
-local function OKHGKC_fake_script() -- TextButton.Script 
-	local script = Instance.new('Script', TextButton)
+coroutine.wrap(XALJ_fake_script)()
+local function SVERGT_fake_script() -- FakeVr.Anime 
+	local script = Instance.new('LocalScript', FakeVr)
 
-	function onButtonClicked()
-	script.Parent.Parent.Parent.Parent.Character.Humanoid.Health = 0
-	end
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Plus = script.Parent.Follow
+	local Zone = script.Parent.Click
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
 	
-	script.Parent.MouseButton1Click:connect(onButtonClicked)
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+	
+	button.MouseEnter:Connect(function()
+		SK = false
+		Plus.Visible = true
+		repeat wait()
+			Plus.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+			until SK == true do
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		SK = true
+		Plus.Visible = false
+	end)
 	
 end
-coroutine.wrap(OKHGKC_fake_script)()
+coroutine.wrap(SVERGT_fake_script)()
+local function MCVZ_fake_script() -- Galefighter.Anime 
+	local script = Instance.new('LocalScript', Galefighter)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Plus = script.Parent.Follow
+	local Zone = script.Parent.Click
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+	
+	button.MouseEnter:Connect(function()
+		SK = false
+		Plus.Visible = true
+		repeat wait()
+			Plus.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+			until SK == true do
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		SK = true
+		Plus.Visible = false
+	end)
+	
+end
+coroutine.wrap(MCVZ_fake_script)()
+local function QOVYF_fake_script() -- FeSpider.Anime 
+	local script = Instance.new('LocalScript', FeSpider)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Plus = script.Parent.Follow
+	local Zone = script.Parent.Click
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+	
+	button.MouseEnter:Connect(function()
+		SK = false
+		Plus.Visible = true
+		repeat wait()
+			Plus.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+			until SK == true do
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		SK = true
+		Plus.Visible = false
+	end)
+	
+end
+coroutine.wrap(QOVYF_fake_script)()
+local function JHVFFGB_fake_script() -- Sonic.Anime 
+	local script = Instance.new('LocalScript', Sonic)
+
+	local Mouse = game.Players.LocalPlayer:GetMouse()
+	local button = script.Parent
+	local SK = false
+	local Plus = script.Parent.Follow
+	local Zone = script.Parent.Click
+	local SpeedS = 1
+	local TweenService = game:GetService("TweenService") 
+	local tweenClick = TweenInfo.new(SpeedS,Enum.EasingStyle.Quint,Enum.EasingDirection.Out,0,false,0)
+	
+	button.MouseButton1Click:connect(function()	
+		local G = Zone:Clone()
+		G.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+		G.Parent = button
+		local tween = TweenService:Create(G, tweenClick, {Size = UDim2.new(1,0,1,0),ImageTransparency = 1})
+		tween:Play()
+		wait(SpeedS)
+		G:Destroy()
+	end)
+	
+	button.MouseEnter:Connect(function()
+		SK = false
+		Plus.Visible = true
+		repeat wait()
+			Plus.Position = UDim2.new(0,Mouse.X-button.AbsolutePosition.X,0,Mouse.Y-button.AbsolutePosition.Y)
+			until SK == true do
+		end
+	end)
+	
+	button.MouseLeave:Connect(function()
+		SK = true
+		Plus.Visible = false
+	end)
+	
+end
+coroutine.wrap(JHVFFGB_fake_script)()
